@@ -1,60 +1,123 @@
-# Vite
-dist/
-dist-ssr/
-*.local
-
-# Dependencies
-node_modules/
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-*.swp
-*~
-
-# Env variables
+# =========================
+# Environment Variables
+# =========================
 .env
 .env.local
 .env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
 
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build Outputs
+# =========================
+dist/
+build/
+out/
+.next/
+.vercel/
+.netlify/
+
+# =========================
 # Logs
-logs
+# =========================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# OS
-Thumbs.db
+# =========================
+# Coverage / Testing
+# =========================
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# =========================
+# Supabase
+# =========================
+.supabase/
+supabase/.temp/
+
+# =========================
+# IDEs
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.iml
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# OS Files
+# =========================
 .DS_Store
 .AppleDouble
 .LSOverride
+Thumbs.db
+Desktop.ini
 
-# Build outputs
-build/
-out/
-
-# IDE
-*.iml
-
-# Testing
-coverage/
-.nyc_output/
-
-# Misc
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
 *.bak
 *.swp
 *.swo
+*.orig
 *~
-.cache/
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# =========================
+# Local Databases
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Keys and Certificates
+# =========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================
+# Misc
+# =========================
+.history/
