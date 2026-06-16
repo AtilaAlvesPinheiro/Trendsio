@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Trends.io - Rede Social de Trends e Comunidades
 
 Uma rede social moderna focada em conteúdo rápido, desafios criativos e comunidades de nicho.
@@ -23,3 +24,6 @@ Uma rede social moderna focada em conteúdo rápido, desafios criativos e comuni
 
 ## 🗄️ Setup do Banco de Dados
 Execute o script `database.sql` no editor SQL do seu painel Supabase para criar as tabelas e as políticas de RLS.
+=======
+# Trendsio
+>>>>>>> 9bee6313e8390563fab02e616bc226bb6854bbbb
